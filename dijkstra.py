@@ -35,7 +35,7 @@ processed = []
     # если стоимости были обновлены, обновить и родителей
     # пометить узел как обработанный
 def find_lowest_cost_node(costs):
-    lowest_cost = loaf('inf')
+    lowest_cost = float('inf')
     lowest_cost_node = None
     for node in costs:
         cost = costs[node]
